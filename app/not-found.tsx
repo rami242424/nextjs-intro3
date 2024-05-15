@@ -1,12 +1,10 @@
-// http://localhost:3000
-
 import Navigation from "../components/navigation";
 
-export default function App(){
+export default function NotFound(){
     return (
         <div>
             <Navigation />
-            <h1>Hello App</h1>
+            <h1>Not Found</h1>
         </div>
     );
 }
